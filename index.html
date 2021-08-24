@@ -30,31 +30,36 @@
         </header>
         
         <!--hero/jumbotron-->
-        <section>
-            <div>
-                <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult.</p>
+        <section class="hero">
+            <div class="hero-form">
                 <form>
-                    <label for="name">Enter Full Name</label>
-                    <input type="text" placeholder="Your Name" name="name" id="name"/>
-                    <label for="email">Enter Email Address</label>
-                    <input type="email" placeholder="Email Address" name="email" id="email"/>
-                    <label for="phone">Enter a Telephone Number</label>
-                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
-                <p>
-                    Have you worked out with a trainer before?
-                    <input type="radio" name="trainer-confirm" id="trainer-yes"/>
-                    <label for="trainer-yes">Yes</label>
-                    <input type="radio" name="trainer-confirm" id="trainer-no"/>
-                    <label for="trainer-no">No</label>
-                </p>
-                <p>
-                    <label for="checkbox">
+                <h3 class="hero-form h3">Get Started Today</h3>
+                    <p class="hero-form p">Fill out this form and one of our trainers will schedule a consult.</p>
+                        
+                    <label for="name" class="hero-form label">Enter Full Name</label>
+                            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                        
+                        <label for="email" class="hero-form label">Enter Email Address</label>
+                            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                        
+                        <label for="phone" class="hero-form label">Enter a Telephone Number</label>
+                            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                    <p class="hero-form p">
+                        Have you worked out with a trainer before?
+                        
+                        <label for="trainer-yes" class="hero-form label">Yes</label>
+                            <input type="radio" name="trainer-confirm" id="trainer-yes" class="form-input"/>
+                        
+                        <label for="trainer-no" class="hero-form label">No</label>
+                            <input type="radio" name="trainer-confirm" id="trainer-no" class="form-input"/>
+                    </p>
+                <p class="hero-form p">
+                    <label for="checkbox" class="hero-form label"> 
                     I acknowledge that I am at least 18 years old.
                     </label>
                     <input type="checkbox" name="age-confirm" id="checkbox"/>
                 </p>
-                <button type="submit">Get Running!</button>
+                <button type="submit" class="hero-form button">Get Running!</button>
                 </form>
             </div>
         </section>
